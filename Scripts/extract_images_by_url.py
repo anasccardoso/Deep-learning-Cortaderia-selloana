@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-df = pd.read_excel("~/iNaturalist_dataset.xlsx")
+df = pd.read_excel("~/iNaturalist_dataset.xlsx") #or invasoras.pt_dataset.xlsx
 print(df)
 
 i = 0
