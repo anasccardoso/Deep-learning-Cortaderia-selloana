@@ -253,7 +253,7 @@ class Flickr(object):
             
 if __name__ == "__main__":
     import sys
-    api_key = '6b7bd8736e1a05537d4aab3b5e94626f'
+    api_key = ''
     api_secret = 'f583fd7b0da312d7'
     portugal_woeid = 23424925 # Portugal unique identifier
     top_lat = 42.160
