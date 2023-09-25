@@ -6,4 +6,6 @@ We started collecting citizen-science and social media images using the extract_
 
 Regarding the training of the convolutional neural network models, we started developing the classification task, that can be implemented using the classification_cortaderia.py script, followed by the object detection task, which in turn can be performed using the object_detection_cortaderia.py script. For the object detection task it's necessary to provide a configuration file, depending on the architecture selected, that can be found in the Configurations folder.
 
+To test the generalization and transferability capacity of the networks, we also feeded the saved models with new and unseen social media images, using the socialmedia.record and Social_media_dataset.zip files that can be found at Zenodo (https://doi.org/10.5281/zenodo.8348734).
+
 In the script files is only represented the DenseNet201 architecture with ImageNet weights, for the classification task, and the Faster R-CNN ResNet101 architecture with MS COCO weights, for the object detection task, as these two pairs achieved the best results for our project. All analyzes were performed using the free T4 GPU environment provided by Google Colab.
