@@ -1,6 +1,6 @@
 # **Deep-learning-Cortaderia-selloana**
 
-This data/code was developed and used in the context of the research article: (_Can citizen-science and social media images support the early detection of new invasion sites? A deep learning test case with Cortaderia selloana_; Ana Sofia Cardoso, Eva Malta-Pinto, Siham Tabik, Tom August, Helen E. Roy, Ricardo Correia, Joana R. Vicente, Ana Sofia Vaz; Ecological Informatics, doi).
+This data/code was developed and used in the context of the research article: (_Can citizen-science and social media images support the early detection of new invasion sites? A deep learning test case with Cortaderia selloana_; Ana Sofia Cardoso, Eva Malta-Pinto, Siham Tabik, Tom August, Helen E. Roy, Ricardo Correia, Joana R. Vicente, Ana Sofia Vaz; Ecological Informatics; doi).
 
 This project was implemented using nine different pre-trained convolutional neural network architectures (VGG16, ResNet50, ResNet101, Inception-v3, DenseNet201, EfficientNetB0, Faster R-CNN ResNet50, Faster R-CNN ResNet101 and Faster R-CNN Inception-v2), depending on the pretended task (classification or object detection), along with three different weights (ImageNet, MSCOCO and iNaturalist).
 
